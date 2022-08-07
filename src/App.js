@@ -1,8 +1,13 @@
+// import logo from './logo.svg';
+// import './App.css';
+
+function Header() {
+  return <h1>Hello there</h1>
+}
+
 function App() {
   return (
-    <div className="App">
-      Hello World!
-    </div>
+    <Header />
   );
 }
 
