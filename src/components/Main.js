@@ -1,8 +1,9 @@
-function Main(props) {
+import { mainWidth, bgYellowgreen, border } from "../styles"
+
+function Main() {
     return (
-        <main className="main">
-            <h1>Hello, {props.userName}</h1>
-            <h2>You are in position no. {props.num}</h2>
+        <main style={{...mainWidth, ...bgYellowgreen, ...border}}>
+            <h2>Main content here</h2>
         </main>
     )
 }

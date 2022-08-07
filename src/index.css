@@ -1,4 +1,59 @@
-.App {
+/*
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
+.m-10-0 {
+    margin: 10px 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.fs16 {
+    font-size: 16px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.custom-min-h {
+    min-height: calc(100vh - 160px);
+}
+.bg-azure {
+    background: azure;
+}
+.bg-yellowgreen {
+    background: yellowgreen;
+}
+.bg-wheat {
+    background: wheat;
+}
+.aside-width {
+    width: calc(30% - 10px);
+}
+.main-width {
+    width: calc(70% - 10px);
+}
+.h-70 {
+    height: 70px;
+}
+.border {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+*/
+
+/* .App {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,4 +93,4 @@ aside, main, header {
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 20px;
-}
+} */

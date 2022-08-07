@@ -1,13 +1,8 @@
+import { bgAzure, asideWidth, ml_10, border } from "../styles"
+
 function Sidebar() {
-
-    const asideStyle = {
-        background: "azure",
-        width: "calc(30% - 10px)",
-        marginLeft: "10px"
-    }
-
     return (
-        <aside className="sidebar-component" style={asideStyle}>
+        <aside style={{...bgAzure, ...asideWidth, ...ml_10, ...border}}>
             <h2>Sidebar content here</h2>
         </aside>
     )
