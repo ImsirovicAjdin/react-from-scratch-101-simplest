@@ -1,3 +1,5 @@
+import logo from "./coursera-github-account-avatar-image.png";
+
 function App() {
   return (
     <div className="App">
