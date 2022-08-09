@@ -1,0 +1,29 @@
+div div {
+    display: grid;
+    grid-template-areas:
+     "header header"
+     "main sidebar";   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+div h1 {
+    background: azure;
+    grid-area: header;
+}
+div h2 {
+    background: wheat;
+    grid-area: main;
+}
+div h2:last-child {
+    background: plum;
+    grid-area: sidebar;
+}
+div h1, div h2, div h2:last-child {
+    padding: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
