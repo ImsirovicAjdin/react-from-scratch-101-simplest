@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px lightslategray;
+}
+img:hover {
+    box-shadow: 1px 1px 4px 0px lightslategray;
+}
