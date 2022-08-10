@@ -1,7 +1,12 @@
+import Btn from "./Btn"
+import Form from "./Form"
+import "./App.css"
+
 function App() {
   return (
-    <div className="App">
-      Hello World!
+    <div>
+      {/* <Btn /> */}
+      <Form />
     </div>
   );
 }
