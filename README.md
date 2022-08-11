@@ -2,9 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is [deployed on Netlify](https://roaring-stardust-1ca4f1.netlify.app/).
+## Task
 
-## Tasks
-
-1. Simplify the starter create-react-app
-2. Deploy the simplified app to Netlify
+1. Move the Heading function from App to a separate component file, named "Heading.js"
+2. Import the Heading component into the App component
+3. Remove the sentence that reads: *This is the starting code for "Your first component" ungraded lab* - so that only the Heading JSX element remains in the return statement of the App component. 
