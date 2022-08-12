@@ -1,10 +1,20 @@
-# About this React app
+# 4-3-1-04 Creating a route, ungraded lab
+
+## About this React app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is [deployed on Netlify](https://roaring-stardust-1ca4f1.netlify.app/).
+## Setup
 
-## Tasks
+1. Open the built-in terminal
+2. Run `npm install` to add the `node_modules` folder
+3. Run `npm start`
+4. Click the "Open Development server" in the bottom status bar to view the running react app in the browser.
 
-1. Simplify the starter create-react-app
-2. Deploy the simplified app to Netlify
+### **To view your code and instructions side-by-side**, select the following in your VSCode toolbar:
+
+- View -> Editor Layout -> Two Columns
+- To view this file in Preview mode, right click on this README.md file and `Open Preview`
+- Select your code file in the code tree, which will open it up in a new VSCode tab.
+- Drag your assessment code files over to the second column. 
+- Great work! You can now see instructions and code at the same time.
