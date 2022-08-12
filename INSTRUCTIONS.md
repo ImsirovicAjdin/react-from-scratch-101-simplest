@@ -15,4 +15,4 @@
 11. Add the `h3` prop to the first `<Card />` element, like this: `h3="First card's h3"`.
 12. Add the `h2` and `h3` props to the second `<Card />` element, with the `h2` reading: "Second card's h2", and the `h3` reading "Second card's h3".
 13. Add the `h2` and `h3` props to the third `<Card />` element, with the `h2` reading: "Third card's h2", and the `h3` reading "Third card's h3".
-14. Add the `className` attribute to each of the `<Card />` elements: `className="card"`.
+14. Add the `className` attribute the Card.js file's `Card` function's return statement's wrapping `div` element.
