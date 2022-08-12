@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <h1>Task: Add an image below</h1>
     </div>
   );
 }
