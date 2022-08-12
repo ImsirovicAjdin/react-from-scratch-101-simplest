@@ -12,7 +12,7 @@ Here's the completed `App.js` file:
 ```jsx
 import React from "react";
 
-export default function App() {
+function App() {
 
   const bird1 = new Audio(
     "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hydroprogne_caspia_-_Caspian_Tern_XC432679.mp3"
@@ -45,4 +45,6 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
 ```
