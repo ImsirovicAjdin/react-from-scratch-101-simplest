@@ -14,4 +14,28 @@ function handleClick() {
     alert(`Computer number: ${randomNum}, Your guess: ${userInput}`)
 }
 ```
-3. Save your changes and run the app. Preview it in the browser. You should be able to click a button, which will trigger the handleClick function. The handleClick function will in turn show a prompt pop up which you can type into. After you've finished, an alert pop up will show computer's "choice" and your guess. After you click "ok" to close the alert, you'll be able to click the button again and try matching the number that the computer "chose" again.
+5. Save your changes and run the app. Preview it in the browser. You should be able to click a button, which will trigger the handleClick function. The handleClick function will in turn show a prompt pop up which you can type into. After you've finished, an alert pop up will show computer's "choice" and your guess. After you click "ok" to close the alert, you'll be able to click the button again and try matching the number that the computer "chose" again.
+
+## Solution
+
+Here is the completed App.js file:
+```jsx
+function App() {
+
+  function handleClick() {
+    let randomNum = Math.floor(Math.random() * 3) + 1
+    console.log(randomNum)
+    let userInput = prompt('type a number');
+    alert(`Computer number: ${randomNum}, Your guess: ${userInput}`)
+  }
+
+  return (
+    <div className="App">
+      <h1>Task: Add a button and handle a click event</h1>
+      <button onClick={handleClick}>Guess the number between 1 and 3</button>
+    </div>
+  );
+}
+
+export default App;
+```
