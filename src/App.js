@@ -10,7 +10,8 @@ function App() {
     "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hydroprogne_caspia_-_Caspian_Tern_XC432881.mp3"
   );
 
-  function toggle1() {
+  function toggle1(e) {
+    console.log(e, e.target.currentSrc);
     if (bird1.paused) {
       bird1.play();
     } else {
@@ -26,10 +27,20 @@ function App() {
     }
   };
 
+  function handler(param) {
+    if (param.paused) {
+      param.play();
+    } else {
+      param.pause();
+    }
+  }
+
   return (
     <div>
       <button onClick={toggle1}>Caspian Tern 1</button>
       <button onClick={toggle2}>Caspian Tern 2</button>
+      <button onClick={() => handler(bird1)}>Caspian Tern 1 X</button>
+      <button onClick={() => handler(bird2)}>Caspian Tern 2 X</button>
     </div>
   );
 }
