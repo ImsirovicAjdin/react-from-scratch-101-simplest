@@ -1,9 +1,12 @@
-function App() {
+import './index.css'
+import DarkMode from './02-dark-mode/DarkMode'
+
+function App () {
   return (
-    <div className="App">
-      Hello World!
+    <div className='App'>
+      <DarkMode />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
