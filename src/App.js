@@ -1,9 +1,12 @@
-function App() {
+import './App.css'
+import FocusInput from './10-focus-input/FocusInput'
+
+function App () {
   return (
-    <div className="App">
-      Hello World!
+    <div className='App'>
+      <FocusInput />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
