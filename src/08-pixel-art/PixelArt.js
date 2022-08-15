@@ -1,17 +1,25 @@
 import React from 'react'
 
+const ColorContext = React.createContext({
+    color: "lightGrey",
+    setColor: () => {}
+})
+
 function ColorPicker () {
   const colors = ['red', 'blue', 'yellow', 'green', 'black', 'white', 'purple']
+  const { setColor } = React.useContext(ColorContext)
   return (
     <div>
       <h1>Choose a color</h1>
-      {colors.map(color => <button key={color} style={{ backgroundColor: color }} />)}
+      {colors.map(color => <button onClick={() => setColor(color)} key={color} style={{ backgroundColor: color }} />)}
     </div>
   )
 }
 
 function Pixel () {
-  return <div style={{ height: '20px', width: '20px', backgroundColor: 'lightGrey', margin: '1px' }} />
+  const { color } = React.useContext(ColorContext)
+  const [pixelColor, setPixelColor] = React.useState('lightGrey')
+  return <div onClick={() => setPixelColor(color)} style={{ height: '20px', width: '20px', backgroundColor: pixelColor, margin: '1px' }} />
 }
 
 function Pixels () {
@@ -25,10 +33,11 @@ function Pixels () {
 }
 
 export default function PixelArt () {
+  const [color, setColor] = React.useState('lightGrey')
   return (
-    <div>
+    <ColorContext.Provider value={{color, setColor}}>
       <ColorPicker />
       <Pixels />
-    </div>
+    </ColorContext.Provider>
   )
 }
